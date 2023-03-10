@@ -1,0 +1,142 @@
+@import 'variables.scss';
+@import 'rem.scss';
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: $roboto;
+  transition: 0.4s;
+}
+
+#container-1{
+  min-height: 100vh;
+  background-image: url('/dist/src/images/index/01.jpg');
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+
+
+  div{
+    display: flex;
+    flex-direction: column;
+    padding-top: rem(100px);
+    h1{
+      font-size: rem(60px);
+      font-family: $roboto;
+      text-shadow: 3px 3px $davie;
+    }
+    h3{
+      font-size: rem(30px);
+    }
+    p{
+      font-size: rem(22px);
+    }
+  }
+  #info-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  #arrow-down{
+    width: 150px;
+    margin-top: rem(-100px);
+  }
+  #arrow-down-div{
+    align-items: center;
+  
+    a{
+      transition: 1.5s;
+    }
+  }
+}
+
+
+
+#container-2{
+  min-height: 100vh;
+  background-image: url('/dist/src/images/index/02.jpg');
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+      font-size: rem(46px);
+      text-align: start;
+      text-shadow: 3px 3px $davie;
+    }
+  
+    p{
+      font-size: rem(20px);
+      font-weight: 500;
+    }
+  }
+
+}
+
+.splitter{
+  margin-top: rem(-7px);
+  margin-bottom: 10px;
+  height: 5px;
+  background-color: $davie-lighter;
+  border-radius: 25px;
+  width: 25%;
+  box-shadow: 2px 2px black;
+}
+
+#container-3{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  .linker{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    justify-content:center;
+    padding-bottom: rem(40px);
+  }
+}
+
+#container-4{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+#footer{
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+      font-size: rem(20px);
+    }
+  }
+}

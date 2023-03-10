@@ -1,0 +1,37 @@
+{
+  "name": "pagina_do_portfolio",
+  "version": "1.0",
+  "description": "Portfólio para contimento e armazenagem e divulgação dos meus projetos de programação.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch dist/src/sass/index.scss:dist/src/css/style.css",
+    "compress": "sass dist/src/sass/index.scss:dist/src/css/style.css --style compressed",
+    "build": "npx webpack"
+  },
+  "keywords": [
+    "daviebatista",
+    "Portfolio",
+    "JS",
+    "Sass",
+    "Bootstrap",
+    "Webpack",
+    "Babel",
+    "AOS"
+  ],
+  "author": "daviebatista",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.76.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "sass-rem": "^3.0.0"
+  }
+}

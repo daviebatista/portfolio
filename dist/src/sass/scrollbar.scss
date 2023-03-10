@@ -1,0 +1,22 @@
+@import 'variables.scss';
+@import 'effects.scss';
+@import 'rem.scss';
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $davie-light; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $davie; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
