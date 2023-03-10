@@ -305,7 +305,7 @@ svg {
 
 #container-1 {
   min-height: 100vh;
-  background: url("https://i.ibb.co/TmTJkgS/01.jpg");
+  background: url("/portfolio/dist/src/images/index/01.jpg");
   background-size: cover;
   width: 100%;
   display: flex;
@@ -347,7 +347,7 @@ svg {
 
 #container-2 {
   min-height: 100vh;
-  background: url("https://i.ibb.co/VDbYJJc/02.jpg");
+  background: url("/portfolio/dist/src/images/index/02.jpg");
   background-size: cover;
   width: 100%;
   display: flex;
